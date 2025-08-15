@@ -6,11 +6,3 @@
 # You can also add real Python code after learning the necessary concepts.
 # For now, just practice breaking larger tasks into smaller steps
 # and writing out your thoughts in pseudocode.
-
-#automating an email response
-#checking that an email has been received
-#the standard message we want to reply with
-    #the subject of this in a variable
-    #the body of this in a variable
-#when the email has been received
-#sending the response email / object
