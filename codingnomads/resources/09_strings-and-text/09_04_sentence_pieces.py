@@ -5,3 +5,4 @@ q1 = "By seeking"
 q2 = "and"
 q3 = "blundering"
 q4 = "we learn."
+print(q1 + " happiness " + q2 + " with a lot of " + q3 + ", " + q4)

@@ -4,11 +4,18 @@
 
 glue = "superglue"
 fingers = "fingers"
+print(glue+fingers)
+
 p = "proton"
 n = "neutron"
+shoe = "shoe"
+print(p+n+shoe)
+
 pb = "peanutbutter"
 teeth = "teeth"
 gum = "gum"
-shoe = "shoe"
+print(pb+teeth+gum)
+
 song = "spice girls: wannabe"
 body_part = "your ear"
+print(song+body_part)

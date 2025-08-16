@@ -26,3 +26,11 @@ For whatever we lose(like a you or a me)
 it's always ourselves we find in the sea"""
 
 # Write your code below here
+
+output_poem=""
+for i in poem:
+    if i=="m":
+        output_poem=output_poem+"_"
+    else:
+        output_poem=output_poem+i
+print(output_poem)
