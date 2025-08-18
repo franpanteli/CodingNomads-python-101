@@ -22,3 +22,8 @@
 # * * *
 #
 # HINT: Think of nested for loops!
+
+stars = input("number please: ")
+stars = int(stars)
+for i in range(0,stars+1):
+    print(i*" *")
