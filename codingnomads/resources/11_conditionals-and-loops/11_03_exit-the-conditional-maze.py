@@ -35,31 +35,17 @@ flag = True
 if flag == True:
     print("left")
 
+
 if flag == False:
     print("straight ahead")
 
-if flag == True:
+if flag == False:
     print("left")
 
 if flag == False:
     print("straight ahead")
 
-if flag == True:
-    print("straight ahead")
-
-if flag == True:
-    print("straight ahead")
-
-if flag == True:
-    print("DEAD END")
-
-if flag == True:
-    print("left")
-
 if flag == False:
-    print("right")
-
-if flag == True:
     print("straight ahead")
 
 if flag == False:
@@ -68,6 +54,22 @@ if flag == False:
 if flag == False:
     print("DEAD END")
 
+if flag == False:
+    print("left")
+
+if flag == True:
+    print("right")
+
+if flag == True:
+    print("straight ahead")
+
+if flag == True:
+    print("straight ahead")
+
+
+if flag == False:
+    print("DEAD END")
+
 if flag == True:
     print("right")
 
@@ -77,8 +79,8 @@ if flag == True:
 if flag == True:
     print("left")
 
-if flag == False:
+if flag == True:
     print("EXIT!!")
 
-if flag == True:
+if flag == False:
     print("DEAD END")

@@ -6,3 +6,7 @@
 
 start = 1
 stop = 100
+sum=0
+for i in range(stop):
+    sum+=i+1
+print("The sum is: ",sum)
