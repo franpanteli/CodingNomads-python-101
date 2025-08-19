@@ -4,3 +4,12 @@
 # String input: hello world
 # Letter input: o
 # Result: 4
+
+string = input("type a string: ") #hello world
+character = input("type a character: ") #o
+index = 0
+for char in string:
+    if string[index]==character:
+        print(index)
+        break
+    index += 1
