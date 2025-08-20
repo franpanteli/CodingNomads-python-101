@@ -1,0 +1,31 @@
+https://www.youtube.com/watch?v=1xMeFLINOCQ&t=54s
+-> moving and renaming files on the computer
+	-> like Bash, but in Python 
+-> for automating tasks 
+	-> we want to move .png screenshot files on the desktop into the Screenshots folder
+	-> from pathlib import Path 
+	-> Path() <- Path 
+	-> Path(_.cwd() <- current working directory 
+	-> Path().home() <- the path to the home directory
+	-> Path().home().joinpath("Desktop") <- to step into the home path 
+	-> path_object_name.iterdir() <- this lists out the different files in the directory name 
+		-> for f in that iterates through the different files
+		-> it's in the dev location 
+		-> f.name is the name of the path 
+			-> you can use an if block under this
+		-> f.suffix <- this is what it ends in, for example .pdf
+			-> methods can then be performed based on this - in if loops e.g 
+			-> an example of this is .contains   
+			-> string_name.find("search term") <- this returns the index of the search term in the string 
+
+-> to make a directory
+	-> variable_with_file_path_name.mkdir()
+	-> desktop.joinpath("screenshots").mkdir(exist_ok=True)
+		-> adds the path screenshots onto the current one, to make a new directory 
+		-> exist_okay keeps the file in the directory 
+		-> we are creating the path for the new file, and also the new file
+-> f.replace() <- to replace the file in that directory (it gets overridden if the names are the same)
+	-> the .iterdir() method is to iterate through all the files in that folder 
+	-> f.replace(desktop.joinpath("screenshots").joinpath(f.name))
+		-> replacing one name with the other 
+		-> this renames the file: replacing the name of one with another 
