@@ -3,10 +3,9 @@
 # Then, change the that way you're displaying the multi-line string
 # so that the output doesn't show any superfluous spacing.
 
-animal = None
-blurb = f"The {animal} (Felis {animal}us) is a domestic species of small \
-        carnivorous mammal. It is the only domesti{animal}ed species \
-        in the family Felidae and is often referred to as the \
-        domestic {animal} to distinguish it from the wild members of the family."
+animal = "Dog"
+blurb = f"""The {animal} (Canis familiaris or Canis lupus familiaris) is a domestic species of small
+carnivorous mammal. It is the only domesticated species in the family Canidae
+and is often referred to as the domestic {animal} to distinguish it from the wild members of the family."""
 
 print(blurb)
