@@ -50,12 +50,22 @@ for folder in test_folder.iterdir(): #we are iterating through the folders in th
 
 print(" ")
 print(file_extensions)
+print(file_extensions)
 file_extension_return = ""
-for char in file_extensions:
-    if char == ".":
-        file_extension_return += ", ."
 
-    else:
-        file_extension_return += char
+if ".pdf" in file_extensions:
+    file_extension_return += ", .pdf"
 
-print("A list of file extensions found two levels deep in this file tree is:",file_extension_return[2:])
+if ".xml" in file_extensions:
+    file_extension_return += ", .xml"
+
+if ".jpg" in file_extensions:
+    file_extension_return += ", .jpg"
+
+if ".png" in file_extensions:
+    file_extension_return += ", .png"
+
+if ".txt" in file_extensions:
+    file_extension_return += ", .txt"
+
+print("This is a list of file extensions which are contained in the folder and nested folder - up to two levels down in the file tree:", file_extension_return[2:])
