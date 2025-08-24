@@ -6,7 +6,7 @@ import pathlib
 from pathlib import Path
 
 # The path where we want to create the new folder
-folder_directory = pathlib.Path('/Users/francescapanteli/Desktop/CodingNomads-python-101/codingnomads/projects/not_done/mover/moving_files')
+folder_directory = pathlib.Path('/Users/francescapanteli/Desktop/CodingNomads-python-101/codingnomads/projects/mover')
 
 # Create a new folder
 new_folder = folder_directory / "png_files" #the directory of the folder we want to create - we
