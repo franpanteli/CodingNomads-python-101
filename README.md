@@ -1,122 +1,125 @@
 # Python-101-Introduction-to-Python
 
 ### Repository Overview
-This repository contains my complete work for **Python 101 - Introduction to Python**, the first module in the **Python Web Development Career Track** by CodingNomads. The course provided a comprehensive introduction to programming with Python, starting from the very basics and gradually building towards practical applications and small projects. 
+This repository contains my completed work for **[Python 101 - Introduction to Python](https://codingnomads.com/course/python-101-introduction-to-python)**, the first module in the **[Python Web Development Career Track](https://codingnomads.com/online-courses/python-bootcamp-web-development)** by [CodingNomads](https://codingnomads.com/).  
 
-This repository reflects my independent learning journey through the course, including lesson notes, completed exercises, mini-projects, quizzes, and technical articles. It demonstrates my progress in thinking like a Python developer, solving problems programmatically, and applying Python concepts to real-world tasks.
+The course provided a comprehensive introduction to programming with [Python](https://www.python.org/), beginning with the fundamentals and progressing to practical projects.  
+
+This repository reflects my independent learning journey, including:
+- Lesson notes and exercises  
+- Quizzes and challenges  
+- [Projects](#projects-and-technical-exercises) (automation scripts & games)  
+- [Technical Articles](#technical-articles)  
+
+It demonstrates my progress in problem-solving, control flow, file automation, and interactive applications with Python.  
 
 ---
 
 ### Course Details
 - **Course URL:** [Python 101 - Introduction to Python](https://codingnomads.com/course/python-101-introduction-to-python)  
-- **Provider:** CodingNomads  
-- **Level:** Beginner  
-- **Duration:** ~75 hours (~1 month at 15–20 hours per week)  
-- **Certificate:** Python 101 Certificate  
+- **Provider:** [CodingNomads](https://codingnomads.com/)  
+- **Level:** Beginner → Intermediate foundations  
+- **Duration:** ~75 hours (approx. 1 month at 15–20 hrs/week)  
+- **Certificate:** [Python 101 Certificate of Completion](https://codingnomads.com/course/python-101-introduction-to-python)  
 
 ---
 
 ### Learning Objectives
-Through this course, I focused on developing the following skills:
+This module equipped me with the following skills:
 
-1. **Python Fundamentals**
-   - Variables and data types (integers, floats, strings, booleans)  
-   - Operators, expressions, and order of operations  
-   - Type conversion and casting  
-   - User input and basic output formatting  
+#### Python Fundamentals
+- [Variables](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator), [data types](https://docs.python.org/3/library/stdtypes.html) (`int`, `float`, `str`, `bool`)  
+- [Operators](https://docs.python.org/3/library/operator.html), expressions, and type conversion  
+- [Input](https://docs.python.org/3/library/functions.html#input) and [print](https://docs.python.org/3/library/functions.html#print)  
 
-2. **Control Flow**
-   - Conditional statements: `if`, `elif`, `else`  
-   - Boolean logic and truthy/falsy values  
-   - Looping constructs: `for` loops, `while` loops  
-   - Break and continue statements  
+#### Control Flow
+- [if / elif / else](https://docs.python.org/3/tutorial/controlflow.html#if-statements)  
+- [Boolean logic](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)  
+- [for loops](https://docs.python.org/3/tutorial/controlflow.html#for-statements) & [while loops](https://docs.python.org/3/tutorial/controlflow.html#the-while-statement)  
+- [break](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops) / continue statements  
 
-3. **Functions**
-   - Defining and calling functions  
-   - Function parameters and return values  
-   - Scope and lifetime of variables  
-   - Using functions to organize code and improve reusability  
+#### Functions
+- [Defining](https://docs.python.org/3/tutorial/controlflow.html#defining-functions) and [calling functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)  
+- [Parameters](https://docs.python.org/3/glossary.html#term-parameter) and [return values](https://docs.python.org/3/reference/simple_stmts.html#return)  
+- Variable [scope](https://docs.python.org/3/reference/executionmodel.html#naming-and-binding)  
 
-4. **Python Data Structures**
-   - Lists, tuples, dictionaries, and sets  
-   - Indexing, slicing, and iteration  
-   - Common methods and operations for manipulating collections  
+#### Data Structures
+- [Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists), [tuples](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences), [dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries), and [sets](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)  
+- [Indexing & slicing](https://docs.python.org/3/tutorial/introduction.html#lists)  
+- [Iteration](https://docs.python.org/3/tutorial/controlflow.html#for-statements)  
 
-5. **File Operations**
-   - Reading from and writing to files  
-   - Automating file handling with Python scripts  
-   - Using the `pathlib` module for cross-platform path manipulation  
+#### File Operations
+- [Reading and writing files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)  
+- Using [`pathlib`](https://docs.python.org/3/library/pathlib.html) for cross-platform file handling  
 
-6. **Problem-Solving and Algorithmic Thinking**
-   - Breaking problems into smaller steps  
-   - Using loops, conditionals, and functions to implement solutions  
-   - Debugging code and iterating until correct behavior is achieved  
+#### Problem Solving
+- Breaking down problems into steps  
+- Writing clean, logical code  
+- [Debugging](https://docs.python.org/3/library/pdb.html) and iterating  
 
 ---
 
 ### Projects and Technical Exercises
-During this module, I completed several projects that applied Python fundamentals in practical contexts. Each project includes a description, implementation highlights, and lessons learned.
-
-#### 1. **Screenshot Mover Script**
-- **Objective:** Automate the organization of `.png` files in a folder by moving them into a dedicated subdirectory.  
-- **Key Features:**  
-  - Iterates through files in a base directory using `pathlib.Path.iterdir()`  
-  - Filters files based on `.png` extension  
-  - Creates a new subdirectory if it doesn’t exist (`exist_ok=True`)  
-  - Moves `.png` files to the new directory using `file.rename()`  
-- **Concepts Practiced:**  
-  - Path manipulation and object-oriented filesystem handling  
-  - Conditional filtering and iteration  
-  - File system automation  
-- **Lessons Learned:**  
-  - Automating repetitive tasks improves productivity  
-  - The importance of cross-platform path handling  
-  - Using Python scripts for practical file management  
-- **Article:** [How I Built a Screenshot Mover With Python](https://dev.to/fran_panteli/how-i-built-a-screenshot-mover-with-python-14i6)  
-- **Source Code:** [GitHub Repository](https://github.com/franpanteli/CodingNomads-python-101/tree/main/codingnomads/projects/mover)
-
-#### 2. **Text-Based Dungeons and Dragons Game**
-- **Objective:** Build an interactive, text-based adventure game inspired by Dungeons and Dragons, focusing on Python fundamentals.  
-- **Key Features:**  
-  - User enters their name and is greeted  
-  - Player chooses between doors, facing challenges such as a dragon or finding a sword  
-  - Boolean variables track player progress and determine game outcomes  
-  - Nested conditional logic guides the story and user interactions  
-- **Concepts Practiced:**  
-  - User input and string handling  
-  - Conditional statements and control flow  
-  - Boolean state management  
-  - Game logic implementation  
-- **Lessons Learned:**  
-  - Building interactive applications using Python fundamentals  
-  - Importance of planning control flow for multiple user outcomes  
-  - Structuring code for readability and logical progression  
-- **Potential Improvements:**  
-  - Adding multiple rooms, combat mechanics, and a health point system  
-  - Introducing inventory management  
-  - Modularizing code with functions  
-  - Converting CLI game into a web application using Flask or Django  
-- **Article:** [How I Built a Dungeons and Dragons Game With Python](https://dev.to/fran_panteli/test-article-lig)  
-- **Source Code:** [GitHub Repository](https://github.com/franpanteli/CodingNomads-python-101/blob/main/codingnomads/projects/dungeons_and_dragon_game.py/clirpg.py)
-
-#### 3. **Mini-Projects and Exercises**
-- Completed smaller exercises to reinforce Python basics, such as:  
-  - `Guess My Number` – random number guessing game  
-  - `Trip Cost Calculator` – calculate expenses for a trip  
-  - `Hangman` – classic word guessing game  
-  - Function and loop practice problems  
-
-These exercises strengthened my problem-solving skills and prepared me for more advanced topics in Python Web Development.
+Here are the main projects I completed during this module:
 
 ---
 
-### Learning Highlights and Skills Gained
-- Developed strong foundational Python skills and confidence with programming logic  
-- Built automation scripts and interactive CLI applications  
-- Learned to structure code cleanly using functions and conditionals  
-- Applied problem-solving techniques to real-world tasks  
-- Practiced writing technical articles to explain projects, enhancing communication skills  
-- Prepared for further modules in **Python Web Development Career Track**, including Flask, Django, SQL, APIs, and object-oriented programming  
+#### [Screenshot Mover Script](https://github.com/franpanteli/CodingNomads-python-101/tree/main/codingnomads/projects/mover)
+**Objective:** Automate the organization of `.png` files by moving them into a new subdirectory.  
+
+- **Core concepts used:**  
+  - [`pathlib.Path`](https://docs.python.org/3/library/pathlib.html#pathlib.Path) for directory management  
+  - [`iterdir()`](https://docs.python.org/3/library/pathlib.html#pathlib.Path.iterdir) for iteration  
+  - File filtering via [`suffix`](https://docs.python.org/3/library/pathlib.html#pathlib.Path.suffix)  
+  - File moving via [`rename()`](https://docs.python.org/3/library/pathlib.html#pathlib.Path.rename)  
+- **Article:** [How I Built a Screenshot Mover With Python](https://dev.to/fran_panteli/how-i-built-a-screenshot-mover-with-python-14i6)  
+- **Source Code:** [mover.py](https://github.com/franpanteli/CodingNomads-python-101/blob/main/codingnomads/projects/mover/mover.py)  
+
+---
+
+#### [Text-Based Dungeons and Dragons Game](https://github.com/franpanteli/CodingNomads-python-101/blob/main/codingnomads/projects/dungeons_and_dragon_game.py/clirpg.py)
+**Objective:** Build a text-based adventure game using Python fundamentals.  
+
+- **Core concepts used:**  
+  - [User input](https://docs.python.org/3/library/functions.html#input) & [string concatenation](https://docs.python.org/3/library/stdtypes.html#string-methods)  
+  - [Conditional logic](https://docs.python.org/3/tutorial/controlflow.html#if-statements) for branching game outcomes  
+  - [Booleans](https://docs.python.org/3/library/functions.html#bool) to track player state  
+  - [Variables](https://docs.python.org/3/tutorial/introduction.html#numbers) for game conditions  
+- **Article:** [How I Built a Dungeons and Dragons Game With Python](https://dev.to/fran_panteli/test-article-lig)  
+- **Source Code:** [clirpg.py](https://github.com/franpanteli/CodingNomads-python-101/blob/main/codingnomads/projects/dungeons_and_dragon_game.py/clirpg.py)  
+
+---
+
+#### Mini-Projects & Exercises
+Other exercises included:  
+- [Guess My Number Game](https://github.com/franpanteli/CodingNomads-python-101/tree/main/codingnomads/projects) – random number guessing using [`random`](https://docs.python.org/3/library/random.html)  
+- [Trip Cost Calculator](https://github.com/franpanteli/CodingNomads-python-101/tree/main/codingnomads/projects) – simple math operations & user input  
+- [Hangman Game](https://github.com/franpanteli/CodingNomads-python-101/tree/main/codingnomads/projects) – iteration, loops, and conditionals  
+- Function drills & loop practice exercises  
+
+---
+
+### Technical Articles
+As part of the course, I wrote and published two technical tutorials on **[DEV Community](https://dev.to/)**:  
+
+1. **[How I Built a Screenshot Mover With Python](https://dev.to/fran_panteli/how-i-built-a-screenshot-mover-with-python-14i6)**  
+   - Walkthrough of my automation script with [`pathlib`](https://docs.python.org/3/library/pathlib.html)  
+   - Discusses implementation, lessons learned, and improvements  
+
+2. **[How I Built a Dungeons and Dragons Game With Python](https://dev.to/fran_panteli/test-article-lig)**  
+   - Breakdown of a CLI-based game project  
+   - Explains [user input](https://docs.python.org/3/library/functions.html#input), [conditionals](https://docs.python.org/3/tutorial/controlflow.html#if-statements), and [boolean states](https://docs.python.org/3/library/functions.html#bool)  
+   - Includes ideas for extending the game with [Flask](https://flask.palletsprojects.com/) or [Django](https://www.djangoproject.com/)  
+
+---
+
+### Skills Gained
+- Strong foundations in [Python syntax](https://docs.python.org/3/reference/) and program structure  
+- Practical use of [functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions), [loops](https://docs.python.org/3/tutorial/controlflow.html#for-statements), [conditionals](https://docs.python.org/3/tutorial/controlflow.html#if-statements)  
+- Built [automation scripts](https://dev.to/fran_panteli/how-i-built-a-screenshot-mover-with-python-14i6) and [interactive games](https://dev.to/fran_panteli/test-article-lig)  
+- Improved technical writing through published tutorials  
+- Prepared for upcoming modules in Python Web Development:  
+  - [Flask](https://flask.palletsprojects.com/), [Django](https://www.djangoproject.com/), [APIs](https://realpython.com/api-integration-in-python/), [SQL](https://www.postgresql.org/)  
 
 ---
 
