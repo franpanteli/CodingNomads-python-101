@@ -25,3 +25,37 @@ or study up now using the links below:
 - [Create a pull request](https://help.github.com/articles/about-pull-requests/)
 
 Keep learning! :)
+
+
+
+
+
+
+
+
+
+
+## Table of contents (clickable):
+
+- Introduction
+- Technologies
+- Project setup
+- Illustrations
+
+Introduction
+Summary of the project,
+What the project is all about
+Technologies
+Which technology and versions are used
+Project setup
+Hardware requirements
+Software requirements
+The minimum requirements to run the project
+How to start the project on your own machine
+
+Visual Aids
+Project Information
+Project Status
+Sources/Inspiration/References - inspiration from elsewhere
+Contribution Instructions
+Other Information
