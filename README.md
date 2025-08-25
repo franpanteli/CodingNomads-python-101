@@ -5,13 +5,16 @@ This repository contains my completed work for **[Python 101 - Introduction to P
 
 The course provided a comprehensive introduction to programming with Python, beginning with the fundamentals and progressing to practical projects.  
 
+## Table of Contents
 This repository reflects my independent learning journey, including:
-- Lesson notes and exercises  
-- Quizzes and challenges  
-- [Projects](#projects-and-technical-exercises) (automation scripts & games)  
-- Technical writing practice  
+- [Repository Overview](#repository-overview)
+- [Course Details](#course-details)
+- [Learning Objectives](#learning-objectives)
+- [Projects and Technical Exercises](#projects-and-technical-exercises)
+- [Skills Gained](#skills-gained)
+- [Clone This Repository](#to-clone-this-repository)
 
-It demonstrates my progress in problem-solving, control flow, file automation, and interactive applications with Python.  
+It demonstrates my progress in problem-solving, control flow, file automation, and interactive applications with Python. 
 
 ---
 
