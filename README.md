@@ -3,7 +3,7 @@
 ## Repository Overview
 This repository contains my completed work for **[Python 101 - Introduction to Python](https://codingnomads.com/course/python-programming-101)**, the first module in the **[Python Web Development Career Track](https://codingnomads.com/career-track/python-web-development-learn-python-bootcamp)** by [CodingNomads](https://codingnomads.com/).  
 
-The course provided a comprehensive introduction to programming with [Python](https://www.python.org/), beginning with the fundamentals and progressing to practical projects.  
+The course provided a comprehensive introduction to programming with Python, beginning with the fundamentals and progressing to practical projects.  
 
 This repository reflects my independent learning journey, including:
 - Lesson notes and exercises  
