@@ -101,6 +101,32 @@ Other exercises included:
 
 ---
 
+## Technical Articles
+
+As part of this course, I wrote technical articles detailing some of my Python projects. These articles provide project walkthroughs, code explanations, and lessons learned.
+
+### 1. [How I Built a Screenshot Mover With Python](https://dev.to/fran_panteli/how-i-built-a-screenshot-mover-with-python-14i6)
+In this article, I explain how I automated file organization by creating a Python script that moves `.png` files into a dedicated subdirectory. Key topics covered include:
+- Using `pathlib.Path` for cross-platform file and directory manipulation
+- Iterating through files with `iterdir()` and filtering by file extension
+- Moving files using the `rename()` method
+- Implementing basic automation to reduce manual file management
+- Potential improvements such as handling multiple file types, adding command-line arguments, and logging
+
+The article provides a step-by-step walkthrough, project structure, example code, and lessons learned from building the script.
+
+### 2. [How I Built a Dungeons and Dragons Game With Python](https://dev.to/fran_panteli/test-article-lig)
+This article describes the creation of a text-based adventure game inspired by Dungeons and Dragons. The game allows players to explore doors, pick up a sword, and face a dragon, demonstrating Python fundamentals. Key concepts discussed include:
+- User input handling and string concatenation
+- Conditional logic and branching with `if` statements
+- Boolean variables to track game state
+- Control flow for building interactive CLI-based applications
+- Potential improvements, such as adding multiple rooms, health points, combat moves, inventory systems, loops for replayability, and even converting the game into a web application with Flask or Django
+
+The article walks through the project’s code, explains its logic, and shares lessons learned while building an interactive game in Python.
+
+---
+
 ## Skills Gained
 - Strong foundations in Python syntax and program structure  
 - Practical use of functions, loops, and conditionals  
