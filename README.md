@@ -11,6 +11,7 @@ This repository reflects my independent learning journey, including:
 - [Course Details](#course-details)
 - [Learning Objectives](#learning-objectives)
 - [Projects and Technical Exercises](#projects-and-technical-exercises)
+- [Technical Articles](#technical-articles)
 - [Skills Gained](#skills-gained)
 - [Clone This Repository](#to-clone-this-repository)
 
@@ -106,7 +107,7 @@ Other exercises included:
 As part of this course, I wrote technical articles detailing some of my Python projects. These articles provide project walkthroughs, code explanations, and lessons learned.
 
 ### 1. [How I Built a Screenshot Mover With Python](https://dev.to/fran_panteli/how-i-built-a-screenshot-mover-with-python-14i6)
-In this article, I explain how I automated file organization by creating a Python script that moves `.png` files into a dedicated subdirectory. Key topics covered include:
+In this article, I explain how I automated file organisation by creating a Python script that moves `.png` files into a dedicated subdirectory. Key topics covered include:
 - Using `pathlib.Path` for cross-platform file and directory manipulation
 - Iterating through files with `iterdir()` and filtering by file extension
 - Moving files using the `rename()` method
@@ -131,7 +132,7 @@ The article walks through the project’s code, explains its logic, and shares l
 - Strong foundations in Python syntax and program structure  
 - Practical use of functions, loops, and conditionals  
 - Built automation scripts and interactive games  
-- Improved code organization and debugging strategies  
+- Improved code organisation and debugging strategies  
 - Prepared for upcoming modules in Python Web Development:  
   - Flask, Django, APIs, SQL  
 
