@@ -24,7 +24,6 @@ This shows my progress in problem-solving, control flow, file automation, and in
 - **Provider:** [CodingNomads](https://codingnomads.com/)  
 - **Level:** Beginner → Intermediate foundations  
 - **Duration:** ~75 hours (approx. 1 month at 15–20 hrs/week)  
-- **Certificate:** Certificate of Completion (pending)  
 
 ---
 
