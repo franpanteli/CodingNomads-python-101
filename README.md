@@ -63,7 +63,7 @@ This module equipped me with the following skills:
 ---
 
 ## Projects and Technical Exercises
-Here are the main projects I completed during this module:
+These are the main projects I completed during this module:
 
 ---
 
