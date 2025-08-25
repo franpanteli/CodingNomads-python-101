@@ -14,7 +14,7 @@ This repository reflects my independent learning journey, including:
 - [Skills Gained](#skills-gained)
 - [Clone This Repository](#to-clone-this-repository)
 
-It demonstrates my progress in problem-solving, control flow, file automation, and interactive applications with Python. 
+This demonstrates my progress in problem-solving, control flow, file automation, and interactive applications with Python. 
 
 ---
 
