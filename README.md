@@ -65,7 +65,7 @@ Here are the main projects I completed during this module:
 ---
 
 ### [Screenshot Mover Script](https://github.com/franpanteli/CodingNomads-python-101/blob/main/labs/projects/mover/mover.py)
-**Objective:** Automate the organization of `.png` files by moving them into a new subdirectory.  
+**Objective:** Automate the organisation of `.png` files by moving them into a new subdirectory.  
 
 - **Core concepts used:**  
   - `pathlib.Path` for directory management  
